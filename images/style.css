@@ -1,0 +1,15 @@
+.main{
+    display: grid;
+    grid-template-areas: 
+    "teste1 teste2"
+    "teste1 teste3";
+    grid-template-columns: 1fr 1fr; /* define 2 colunas iguais */
+    grid-template-rows: auto auto; /* define altura para as linhas */
+
+
+}
+
+.teste1 { grid-area: teste1; background: lightblue; }
+.teste2 { grid-area: teste2; background: lightgreen; }
+.teste3 { grid-area: teste3; background: lightcoral; }
+

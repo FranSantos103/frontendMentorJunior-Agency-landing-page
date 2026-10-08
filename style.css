@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Mobile first */
+
+picture img {
+    width: 100%;
+}
+
+header{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    "orangeHeader" 
+    "egg"
+    "transformBrand"
+    "pinkCup"
+    "standOut"
+    "cherry"
+    "photographyOrange"
+    
+    ;
+   
+
+}
+
+.imageHeader{
+    grid-area: orangeHeader;
+
+}
+
+.egg{
+    grid-area: egg;
+}
+
+.transformBrand{
+    grid-area: transformBrand;
+    background-color: #FFFBF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.transformBrand p:first-child{
+    font-size: 1.9rem;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    margin-top: 1.6em;
+    width: 70%;
+    font-weight: bold;
+}
+
+.transformBrand p:last-of-type{
+    margin-top: 1.6em;
+    font-size: 1rem;
+    width: 75%;
+    text-align: center;
+    line-height: 1.7rem;
+    color: gray;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 1.6rem;
+}
+
+.learnMore{
+    text-decoration: none;
+    color: black;
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    border-bottom: 5px solid #FCF0B7;
+    margin-bottom: 1.6rem;
+}
+
+.pinkCup{
+    grid-area: pinkCup ;
+}
+
+.standOut{
+    grid-area: standOut;
+    background-color: #FFFBF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.standOut p:first-child{
+    font-size: 1.9rem;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    margin-top: 1.6em;
+    width: 90%;
+    font-weight: bold;
+}
+
+
+.standOut p:last-of-type{
+    margin-top: 1.6em;
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+    line-height: 1.7rem;
+    color: gray;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 1.6rem;
+}
+
+.learnMorePink{
+    text-decoration: none;
+    color: black;
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    border-bottom: 5px solid #FDD8CE;
+    margin-bottom: 1.6rem;
+}
+
+.cherry{
+    grid-area: cherry;
+    z-index: 1;
+    position: relative;
+}
+
+.graphicDesign{
+    grid-area: cherry;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.graphicDesign p:first-child{
+    font-size: 1.9rem;
+    font-family: "Fraunces", serif;
+    margin-top: 1.6em;
+    width: 90%;
+    font-weight: bold;
+    color: #2B5A50;
+}
+
+
+.graphicDesign p:last-of-type{
+    margin-top: 1.6em;
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+    line-height: 1.7rem;
+    color: #2B5A50;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 1.6rem;
+}
+
+.photographyOrange{
+    grid-area: photographyOrange;
+    z-index: 1;
+    position: relative;
+}
+
+.photography{
+    grid-area: photographyOrange;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+
+}
+
+
+.photography p:first-child{
+    font-size: 1.9rem;
+    font-family: "Fraunces", serif;
+    margin-top: 1.6em;
+    width: 90%;
+    font-weight: bold;
+    color: #22526A;
+}
+
+.photography p:last-of-type{
+    margin-top: 1.6em;
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+    line-height: 1.7rem;
+    color: #22526A;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 1.6rem;
+}
